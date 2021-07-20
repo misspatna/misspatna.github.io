@@ -1,0 +1,64 @@
+<h1>Interests and Hobbies</h1>
+    <div class="flex-container">
+    <div style="flex-basis: 220px">
+        <section>
+            <h3>Skills</h3>
+            <p>
+                Scripting Language: HTML
+                <br><br>
+                Programming Languages: Basics of C, C++, Python, ROS 
+                <br><br>
+                Style Sheet Language: CSS
+            </p>
+        </section>
+    </div>
+    <div>
+        <section>
+            <h3>Interests</h3>
+            <p>
+                Product Development
+                <br><br>
+                Web Development
+            </p>
+        </section>
+    </div>
+    <div>
+        <section>
+            <h3>Hobbies</h3>
+            <p>
+                Literature
+                <br><br>
+                Dance
+                <br><br>
+                Movies
+                <br><br>
+                Badminton
+            </p>
+        </section>
+    </div>
+    <div>
+        <section>
+            <h3>Soft Skills</h3>
+            <p>
+                Good Orator
+                <br><br>
+                Intrapersonal skils
+                <br><br>
+                Leadership
+            </p>
+        </section>
+    </div>
+    </div>
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:darkorange;
+  }
+  
+  .flex-container>div {
+    background-color:blanchedalmond;
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+  }
